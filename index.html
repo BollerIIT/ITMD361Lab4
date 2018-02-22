@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html>
+
+<!-- This is how to set up a comment -->
+<!-- Programmer: Thomas Boller -->
+<!-- Lab:  4 -->
+<!-- Date 01/20/2018 -->
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Volunteers<\title>
+	</head>
+	
+	<body>
+	  <h1>Volunteer Form</h1>
+	  <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+		<fieldset>
+		  <h3>My Info</h3>
+		  
+		   <div>
+					<label>First Name:
+						<input type="text" name="first_name_field">
+					</label>
+				</div>
+				<div>
+					<label>Last Name:
+						<input type="text" name="last_name_field">
+					</label>
+				</div>
+				<div>
+					<label>Phone Number:
+						<input type="tel" name="phone_field">
+					</label>
+				</div>
+				<div>
+					<label>Email Address:
+						<input type="email" name="email_field">
+					</label>
+				</div>
+
+				<div>
+				  <label>Gender:
+				  <input type="radio" name="gender_field" value="Male"> Male
+				  </label>
+				  <label>
+				  <input type="radio" name="gender_field" value="Female"> Female
+				  </label>
+				</div>
+
+				<div>
+					<label>Age:
+						<select name="age_field">
+							<option value="under 18">under 18</option>
+							<option value="18-24">18-24</option>
+							<option value="25-34">25-34</option>
+							<option value="35-44">35-44</option>
+							<option value="45-54">45-54</option>
+							<option value="55-64">55-64</option>
+							<option value="65 and over">65 and over</option>
+						</select>
+					</label>
+				</div>	  
+		</fieldset>
+		
+		   <input type="submit" value="Send Me">
+	  </form>
+	</body>
+</html>
